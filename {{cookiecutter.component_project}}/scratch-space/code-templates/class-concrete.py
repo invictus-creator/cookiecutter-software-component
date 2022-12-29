@@ -3,42 +3,38 @@ class ClassName:
     """TODO: Document the class.
     Represents a WHATEVER
     """
+
     ###################################
     # Class attributes/constants      #
     ###################################
+
+    # _property_name = None
 
     ###################################
     # Property-getter methods         #
     ###################################
 
-#     def _get_property_name(self) -> str:
-#         return self._property_name
+    # @property
+    # def property_name(self) -> str:
+    #     return self._property_name
 
     ###################################
     # Property-setter methods         #
     ###################################
 
-#     def _set_property_name(self, value:str) -> None:
-#         # TODO: Type- and/or value-check the value argument of the
-#         #       setter-method, unless it's deemed unnecessary.
-#         self._property_name = value
+    # @property_name.setter
+    # def property_name(self, value:str) -> None:
+    #     # TODO: Type- and/or value-check the value argument of the
+    #     #       setter-method, unless it's deemed unnecessary.
+    #     self._property_name = value
 
     ###################################
     # Property-deleter methods        #
     ###################################
 
-#     def _del_property_name(self) -> None:
-#         self._property_name = None
-
-    ###################################
-    # Instance property definitions   #
-    ###################################
-
-#     property_name = property(
-#         # TODO: Remove setter and deleter if access is not needed
-#         _get_property_name, _set_property_name, _del_property_name,
-#         'Gets, sets or deletes the property_name (str) of the instance'
-#     )
+    # @property_name.deleter
+    # def _del_property_name(self) -> None:
+    #     self._property_name = None
 
     ###################################
     # Object initialization           #
