@@ -1,0 +1,9 @@
+{
+  "top_level_project": "project",
+  "component_project": "{{ cookiecutter.top_level_project }}_core",
+  "short_name": "core",
+  "author": "First Last",
+  "email": "your@email.com",
+  "url": "https://github.com/your-profile",
+  "description": ""
+}
